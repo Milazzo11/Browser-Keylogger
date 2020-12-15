@@ -1,0 +1,1 @@
+EXTENSION folder contains the browser extension code
