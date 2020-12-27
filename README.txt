@@ -1,6 +1,6 @@
 This program is a browser extension that can perform targeted keylogging on certain sites, as well as general keylogging.
 By default, inside the "manifest.json" file, the "matches" key (inside of "content_scripts") is set to "<all_urls>" ... this, however, can be changed to any URL.
-For example, putting in "*://roblox.com/login" instead of "<all_urls>" will only 
+For example, putting in "*://roblox.com/login" instead of "<all_urls>" will only target that site.
 
 Furthermore, the script execution can be changed to a background process for general keylogging, which will allow the script to collect keys even when not on a specific URL.
 This is not necessary, and is probably more likely to increase "spam" text, but it will not delete unsent text when going to a new URL.
