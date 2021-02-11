@@ -19,7 +19,7 @@ function sendMessage() {  // sends message using Discord webhook
             username: botName,
             avatar_url: "",
             content: text
-        }
+        };
 
         request.send(JSON.stringify(params));
         text = "";
